@@ -11,35 +11,7 @@
 int init_suite(void) { return 0; }
 int clean_suite(void) { return 0; }
 
-/* void test(){
-    int compteur = 0;
-    struct coordonnee c1 = {45,60,4};
-    struct CSC_rep csc1 = Chassy_safety_controller(25,0,60,c1);
-    struct CSC_rep csc2 = Chassy_safety_controller(60,0,60,c1);
 
-
-    if(csc1.danger.vitesse<60){
-        compteur++;
-        printf("Test 4 succeed !\n");
-    }
-    else{
-        printf("Test 4 failed !\n");
-    }
-    if(csc2.danger.vitesse=60){
-        compteur++;
-        printf("Test 5 succeed !\n");
-    }
-    else{
-        printf("Test 5 failed !\n");
-    }
-   if(csc1.danger.priorite=1){
-        compteur++;
-        printf("Test 6 succeed !\n");
-    }
-    else{
-        printf("Test 6 failed !\n");
-    }
-} */
 
 /************* Test case functions ****************/
 
